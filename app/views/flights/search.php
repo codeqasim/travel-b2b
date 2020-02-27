@@ -90,12 +90,14 @@
                 <button class="increase">+</button>
             </div>
         </div>
+        <div class="class_type">
         <select name="" id="">
             <option>Economy</option>
             <option>Premium</option>
             <option>Business</option>
             <option>First</option>
         </select>
+        </div>
         <!-- <button class="add-room mt-20" type="button">Add room +</button> -->
     </div>
         <div class="searchbutton">

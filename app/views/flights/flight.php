@@ -44,7 +44,7 @@
                 <span class="time">2h 0m</span>
               </h5>
               <div class="flight-detail-header-right flex flex-content-end row-rtl">
-                <img src="assets/img/WY.png" alt="">
+                <img src="<?php echo base_url(); ?>assets/img/WY.png" alt="">
                 <ul class="rtl-align-right ">
                   <li>Pakistan International Airlines - 214 </li>
                   <li>economy (AIRBUS)</li>
@@ -77,7 +77,7 @@
                 </ul>
               </div>
               <div class="timeline-group__details__extraInfo row-rtl">
-                <img src="assets/img/bag.svg">
+                <img src="<?php echo base_url(); ?>assets/img/bag.svg">
                 <ul class="list-unstyled">
                   <li class="bold">baggage info</li>
                   <li>
@@ -170,7 +170,7 @@
                 </ul>
               </div>
               <div class="timeline-group__details__extraInfo row-rtl">
-                <img src="assets/img/bag.svg">
+                <img src="<?php echo base_url(); ?>assets/img/bag.svg">
                 <ul class="list-unstyled">
                   <li class="bold">baggage info</li>
                   <li>

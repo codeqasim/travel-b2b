@@ -59,7 +59,7 @@
     </div>
     <div class="passenger-dropdown pb-20">
         <div class="passenger-dropdown-head rtl-align-right">
-            <span >Room 1</span>
+            <span >Options</span>
         </div>
         <div class="flex room-row flex-content-between row-rtl">
             <div class="passenger-dropdown-left">

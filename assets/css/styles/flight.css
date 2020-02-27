@@ -165,3 +165,6 @@ aside .help-detail .info a{font-size: 22px; font-weight: 500; color: #fff;}
 .airline-card-body .itenary span{display: inline-block;font-size: 15px;color: #363636;font-weight: 500;text-transform: capitalize;}
 .airline-card-body .itenary img{width: 58%}
 .text-muted {color: #6c757d!important;}
+
+.class_type { padding: 8px; background: #f2f3f4; margin-bottom: -20px; }
+.class_type select { width: 100%; padding: 5px; }
