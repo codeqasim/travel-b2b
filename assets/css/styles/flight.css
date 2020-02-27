@@ -144,9 +144,10 @@ aside .help-detail .info a{font-size: 22px; font-weight: 500; color: #fff;}
 -webkit-transition: opacity .3s,padding .3s; -moz-transition: opacity .3s,padding .3s; transition: opacity .3s,padding .3s; visibility: visible; opacity: 1;
 }
 /*search*/
-.options{position: absolute; right: 16px; top: -62px;}
+.options{position: absolute; right: 16px; top: -42px;}
 .options label{display: inline-block;line-height: 28px;border-radius: 14px;font-size: 15px;text-align: center;cursor: pointer;color: #fff;text-transform: capitalize;}
 .options input:checked + label{background-color: #ff002d!important}
+.options label{padding: 3px 18px !important; color: #fff !important; font-size: 14px !important;}
 
 
 

@@ -1,7 +1,7 @@
 <section class="hero" style="background-image: url('assets/img/hero.jpg')">
   <div class="contain">
     <div class="row hide-m">
-      <div class="c8 mx-auto">
+      <div class="c8 mx-auto hero-content">
         <h2 class="hero-title-h2">
           Your new travel mate
         </h2>

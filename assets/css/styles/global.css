@@ -3,7 +3,6 @@
 --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
-
 @font-face {
 font-family: 'Product Sans Regular';
 font-style: normal;
@@ -12,7 +11,7 @@ src: local('Product Sans Regular'), url('../../fonts/regular.woff') format('woff
 }
 
 html { background-color: #FFFFFF;scroll-behavior: smooth;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; }
-body { font-family:'Product Sans Regular';letter-spacing: 0.5px;margin:0;animation: fadeIn ease 0.4s; -webkit-animation: fadeIn ease 0.4s; -moz-animation: fadeIn ease 0.4s; -o-animation: fadeIn ease 0.4s; -ms-animation: fadeIn ease 0.4s;scroll-behavior: smooth; }
+body { font-family:'Product Sans Regular';letter-spacing: 0.5px;margin:0;animation: fadeIn ease 0.4s; -webkit-animation: fadeIn ease 0.2s; -moz-animation: fadeIn ease 0.2s; -o-animation: fadeIn ease 0.2s; -ms-animation: fadeIn ease 0.2s;scroll-behavior: smooth; }
 
 @keyframes body{0%{opacity:0}
 100%{opacity:1}
@@ -157,6 +156,7 @@ ul{list-style-type: none; }
 .text-muted{color: #949494;}
 .text-success{color:#4ea05a!important;}
 .text-primary{color: #4ea1e2 !important;}
+.tc{ text-align: center; }
 
 /*height*/
 .h-100{height: 100%}
