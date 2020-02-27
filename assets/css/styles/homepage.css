@@ -1,0 +1,99 @@
+/* hero section */
+.hero{display: flex; background-attachment: fixed;align-items: center; justify-content: center;background-size:cover;background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 580px;height: 589px;width: 100%;}
+.hero-title-h2{font-size:48px;font-weight:600;text-shadow:0 2px 15px rgba(0,0,0,0.37);text-align:center;color:#fff}
+.hero-title-h3{font-size:25px;text-shadow:0 2px 15px rgba(0,0,0,0.37);margin-bottom:65px;text-align:center;color:#fff}
+
+/* hero search */
+.hero .search {background-color:rgba(33,37,41,0.3);padding:20px 20px 20px 20px;position:relative;/*border-radius:4px 0 4px 4px*/}
+.hero .search  ul { display: flex;margin-bottom: 10px;}
+.hero .search  li label{cursor: pointer; background-color:transparent;padding:7px 20px;color:#fff;border-radius:4px;font-size:18px;font-weight:500;color:#fff;text-transform:capitalize;border:none;text-align:center}
+.hero .search  li:not(:last-child){margin-right:10px}
+.hero .search .fade{top: 57px;}
+
+
+
+.passenger-dropdown {opacity:0;visibility:hidden;-webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);}
+.dropshow:hover + .passenger-dropdown { -webkit-transition: opacity .3s,padding .3s; -moz-transition: opacity .3s,padding .3s; transition: opacity .3s,padding .3s; visibility: visible; opacity: 1; }
+.search li input[type=radio]:checked+label {background-color:#0047b7 }
+.search li input[type=radio]:checked+label+.tab { -webkit-transition: opacity .3s,padding .3s; -moz-transition: opacity .3s,padding .3s; transition: opacity .3s,padding .3s; visibility: visible; opacity: 1; }
+.search li input[type=date]::-webkit-inner-spin-button{ -webkit-appearance: none; display: none; }
+.passenger-dropdown:hover { display: block !important;opacity: 1;visibility: visible; }
+input[type="date"]:after { content: "\25BC"; color: #555; padding: 0 5px; }
+input[type="date"]:hover:after { color: #bf1400; }
+input[type="date"]::-webkit-calendar-picker-indicator { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: auto; height: auto; color: transparent; background: transparent; }  
+input[type="date"]::-webkit-inner-spin-button { z-index: 1; }
+
+.search .fade { margin: 15px 0px; position: absolute; width: 100%; left: 0; right: 0; z-index: 2; opacity:0;visibility:hidden;-webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; }
+
+.offers img{ margin: 25px 0; border-radius: 4px; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);  }
+.offers img:hover { opacity: 0.8;  }
+
+/*tabs*/
+.input-items{position:relative;}
+.input-label{margin-bottom: 5px;display: block;}
+.input-items input{width: 100%;border: none;outline: 0;color: #363636;font-size: 15px;font-weight: 500;background: transparent;}
+.input-items .dashed{position: absolute;left: -30px;}
+
+#flights .dashed{left: -22px;}
+.hotel-search-item{position: relative;}
+.passenger-dropdown{border: 1px solid #ccc; border: 0px solid rgba(0,0,0,.15); border-radius: 0; position: absolute;top: 100%;background: #fff;width: 345px;border: 1px solid #e6e6e6;border-radius: 4px;z-index: 100;right: 62px;}
+.passenger-dropdown-head{padding: 11px 17px;background-color: #f3f3f3;}
+.passenger-dropdown .room-row{padding: 10px 20px;width: 100%;}
+.passenger-dropdown .room-row span{font-size: 14px}
+.passenger-dropdown-right .decrease{border: none;text-align: center;color: #fff;cursor: pointer;background: #767676;border-radius: 2px;padding: 0 7px;font-size: 20px;margin-right: 7px;outline: none}
+.passenger-dropdown-right .increase{border: none;text-align: center;color: #fff;cursor: pointer;background: #ff002d;border-radius: 2px;padding: 0 7px;font-size: 20px;margin-left: 7px;outline: none}
+.passenger-dropdown .add-room{background: transparent;border: none; font-size: 14px;font-weight: bold;outline: none;display: block;text-align: center;width: 100%;cursor: pointer;}
+.input-wrapper.travelers{flex: 3}
+.searchbutton{flex: 1}
+.searchbutton:hover{opacity: 0.7;}
+.icon-search{font-size: 40px;font-weight: 700;color: #fff;display: inline-block;transform: rotate(81deg);margin-left: 7px;margin-top: 2px;}
+.searchbutton button{cursor: pointer;border: none;width: 100%;min-height: 80px;background-color: #ff002d;outline: 0;/*border-top-right-radius:4px;border-bottom-right-radius: 4px */}
+.input-wrapper{position:relative;min-height:80px;background:#fff;padding:15px 19px;cursor:pointer}
+/*.data-input:first-child .input-wrapper{border-top-left-radius: 4px;border-bottom-left-radius: 4px}*/
+.data-input:not(:last-child) .input-wrapper{border-right: 1px solid #eee;}
+
+/*offers*/
+.offer-img{width: 100%;margin-bottom: 20px;border-radius: 4px;box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);}
+
+/*hotelsfeature*/
+.hotels-feature{padding-top: 79px;background-color: #f2f6fb;padding-bottom: 50px;}
+.hotels-feature-items{overflow: hidden;background: #fff;box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);border-radius: 4px;margin-bottom: 30px;}
+.section-subtitle {text-align: center;width: 100%;margin-bottom: 50px;}
+.section-subtitle h3 {font-size: 15px;color: #949494;font-weight: 500;}
+.section-subtitle h2{font-size: 26px;font-weight: 500;color: #363636;margin-bottom: 8px;}
+.hotel-image{width: 100%;height: 207px;background-repeat: no-repeat;background-size: cover;background-position: center;}
+.item-info-title h4{font-size: 18px; font-weight: 500;color: #363636;}
+.item-info{padding: 17px 20px;overflow: hidden;}
+.item-rating{margin: 7px 0}
+.item-rating span{color:#ffc100;}
+
+/*top Destination*/
+.top-destinations{padding-bottom: 50px}
+.top-destinations .country-recommendation{height: 260px; border-radius: 4px;margin: 10px auto 10px 0;cursor: pointer;background-size: cover;background-repeat: no-repeat;position: relative;overflow: hidden;}
+.country-recommendation:after{content: '';width: 100%;height: 100%;left: 0;top: 0; position: absolute;background: rgba(0,0,0,.3);transition: all .5s ease-in-out}
+.top-destinations .country-recommendation:hover:after{background: rgba(0,0,0,.5)}
+.country-recommendation .country-name{position:relative;font-size: 22px;color: #fff;font-weight: 500;text-transform: uppercase;z-index: 9;text-align: center;top:50%;}
+
+.airline-card .tab-panel { margin: 15px 0px; position: absolute; width: 100%; left: 0; top: 48px; z-index: 2; opacity:0;visibility:hidden;-webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; background: #fff; }
+
+.airline-card  input[type=checkbox]:checked + .tab-panel {
+-webkit-transition: opacity .3s,padding .3s; -moz-transition: opacity .3s,padding .3s; transition: opacity .3s,padding .3s; visibility: visible; opacity: 1;
+}
+
+/*top Airlines*/
+.top-airlines{background-color: #f2f6fb;padding-top: 80px;padding-bottom: 80px;}
+.top-airlines .airline-card{position:relative;border: none;margin-bottom: 10px;box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);background-color: #fff;}
+.top-airlines .airline-card .card-header{background-color: transparent;padding: 6px 10px;text-align: center;cursor: pointer;}
+.airline-card .airline_img{height: 53px;text-align: left;width: 130px;padding: 0 3px 3px;}
+.airline-card img{width: 40%}
+.airline-card .airline-name{ font-size: 16px;color: #363636;font-weight: 500;}
+.airline-card-body .itenary{padding: 20px 15px;position: relative;cursor: pointer;}
+.itenary:before{height: 1px;display: block;width: 90%;background: #f2f6fb;border-right: 1px #fff;content: '';position: absolute;top: 0;}
+.airline-card-body .itenary span{display: inline-block;font-size: 15px;color: #363636;font-weight: 500;text-transform: capitalize;}
+.airline-card-body .itenary img{width: 58%}
+.text-muted {color: #6c757d!important;}
+
+/*Features*/
+.features{position: relative;padding-top: 80px;padding-bottom: 20px}
+.features .feature-item img {margin-bottom: 20px;max-height: 87px;}
+.features .feature-item p {font-size: 18px;font-weight: 500;}
