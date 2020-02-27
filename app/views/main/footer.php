@@ -20,7 +20,7 @@
     <div class="contain">
       <div class="row row-rtl">
         <div class="c6">
-          <h3>Travel</h3>
+          <h3><strong>B2B</strong> Booking Engine</h3>
           <div class="row links row-rtl">
             <div class="c4">
               <ul>
@@ -50,10 +50,10 @@
               <li><a class="footer-email" href="">support@travel.com</a></li>
             </ul>
             <ul>
-              <li><a href="">F</a></li>
-              <li><a href="">T</a></li>
-              <li><a href="">L</a></li>
-              <li><a href="">Y</a></li>
+              <li><a href="">FB</a></li>
+              <li><a href="">TW</a></li>
+              <li><a href="">LI</a></li>
+              <li><a href="">YT</a></li>
             </ul>
           </div>
         </div>
@@ -66,11 +66,11 @@
   <div class="contain">
     <div class="sub-footer">
       <div class="flex items-center row-rtl">
-        <a  href="" class="mr-10 d-block">
-        <img alt="" width="100px" src="assets/img/logo.png">
+        <a  href="<?php echo base_url(); ?>" class="mr-10 d-block">
+        <img alt="" width="100px" src="<?php echo base_url(); ?>assets/img/logo.png">
         </a>
         <p class="coy_right">
-          <span>© 2020 Travel.com.</span>
+          <span>© 2020 b2b.com.</span>
           <span class="reserved">  All rights reserved.</span>
         </p>
       </div>

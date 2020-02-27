@@ -1,12 +1,12 @@
 /*flights globle*/
-.flight-itenrary-group{border: 1px solid #3491e7; border-radius: 4px; position: relative; margin-bottom: 47px;}
+.flight-itenrary-group{border: 1px solid #adbfd5; border-radius: 4px; position: relative; margin-bottom: 20px;}
 .flight-itenrary-group .result-card{background-color: #fff; border-radius: 4px; filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .07)); -webkit-filter: drop-shadow(0 2px 10px rgba(0, 0, 0, .07));}
 .result-card .left-side-row .left-side-row-info .airline-info .airline-info__logo span{width:50px;display:block;margin:0 auto;}
-.result-card .left-side-row .left-side-row-info .airline-info .airline-info__logo span img{max-height:40px;max-width:100%;vertical-align:middle;width:auto;}
+.result-card .left-side-row .left-side-row-info .airline-info .airline-info__logo span img{max-height:20px;max-width:100%;vertical-align:middle;width:auto;}
 .result-card .left-side-row .left-side-row-info .airline-info .airline-info__logoName{color:#363636;}
 .result-card .left-side-row .left-side-row-info .airline-info .airline-info__class, .result-card .left-side-row .left-side-row-info .airline-info .airline-info__logoName{font-size:12px;margin-bottom:5px;text-align:center;text-transform:capitalize;}
 .result-card .left-side-row .left-side-row-info .airline-info .airline-info__class{color:#9b9b9b;}
-.result-card .left-side-row .left-side-row-info .direction-info{position:relative;padding:20px;}
+.result-card .left-side-row .left-side-row-info .direction-info{position: relative; padding: 5px; text-align: center; width: 100%; display: flex; align-items: center;}
 .result-card .left-side-row .left-side-row-info .direction-info h5{font-size:12px;color:#4a4a4a;font-weight:400;margin-bottom:25px;}
 .result-card .left-side-row .left-side-row-info .direction-info h5 i{margin-right:5px;}
 .result-card .left-side-row .left-side-row-info .direction-info .direction-info__row{max-width:100%;}
@@ -14,7 +14,7 @@
 .result-card .left-side-row .left-side-row-info .direction-info .direction-info__row .direction-line h6{position:absolute;bottom:10px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);display:block;width:100%;text-align:center;font-size:12px;}
 .result-card .left-side-row .left-side-row-info .direction-info .direction-info__row .direction-line:after{content:'';display:block;width:12px;height:12px;border-radius:100%;background-color:#949494;position:absolute;left:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);}
 .result-card .left-side-row .left-side-row-info .direction-info .direction-info__row .direction-line:before{content:'';position:absolute;right:0;top:-6px;display:block;width:12px;height:12px;border-radius:100%;background-color:#949494;}
-.result-card .left-side-row .left-side-row-info .airline-info{flex:1;border-right:1px solid #e3e3e3;min-height:130px;align-items:center;justify-content:flex-start;display:flex;flex-direction:column;position:relative;padding-left:20px;}
+.result-card .left-side-row .left-side-row-info .airline-info{flex:1;border-right:1px solid #e3e3e3;min-height:100px;align-items:center;justify-content:flex-start;display:flex;flex-direction:column;position:relative;padding:0px;}
 .result-card .left-side-row .left-side-row-info .airline-info:not(.multiLeg){padding-top:15px;}
 .result-card .left-side-row .left-side-row-info .airline-info .airline-info__logo{text-align:center;margin-bottom:5px;margin-top:10px;}
 .result-card .left-side-row .left-side-row-info .direction-info .direction-info__row .direction-line .direction-line__points{display:flex;flex-direction:row;align-items:center;margin-top:-5px;justify-content:center;}
@@ -87,7 +87,7 @@
 .flight-list-page aside .filter-section select{width: 100%; outline: 0; font-size: 16px; border-radius: 2px; border: 1px solid #d0d0d0; background-color: transparent; color: #363636; height: 43px; margin-top: 8px;}
 .flight-list-page aside .filter-section{margin-bottom:19px;border-bottom:1px solid #d0d0d0}
 .flight-list-page aside .filter-section span{display:inline-block;font-size:14px}
-.flight-list-page aside .filter-section button{color:#4ea1e2;background:0 0;border:none;font-size:14px;outline:none;cursor:pointer}
+.flight-list-page aside .filter-section button{color:#0047b7;background:0 0;border:none;font-size:14px;outline:none;cursor:pointer}
 .flight-list-page aside .filter-section .stoping-airport .airport-name{font-size: 13px !important;color: #949494 !important;}
 .flight-list-page aside .filter-section input[type="range"]{width: 100%}
 .flight-list-page aside .filter-section label{font-size:14px}
@@ -101,13 +101,13 @@
 .flight-list-page .sortby-dropdown span{padding:12px;font-size:16px;text-transform:capitalize;background-color:#3c91e0;color:#fff;display:block;border-radius:4px 4px 0 0}
 .flight-list-page .sortby-dropdown ul li{padding:12px;font-size:16px;text-transform:capitalize;margin-bottom:1px}
 .flight-list-page .sortby-dropdown ul li:last-child{margin-bottom:0}
-.flight-list-page .sortby-dropdown ul li:hover{background-color:#3c91e0;color:#fff}
-.flight-list-page .filter-tabs{display: flex; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); border-radius: 8px; overflow: hidden; margin-bottom: 20px;}
-.flight-list-page .filter-tabs .filter-tab{display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; padding: 19px 0; background-color: #fff; color: #2b2a58; border-right: 1px solid #cbcccd; cursor: pointer; }
+.flight-list-page .sortby-dropdown ul li:hover{background-color:#0d00bc;color:#fff}
+.flight-list-page .filter-tabs{display: flex; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); border-radius: 4px; overflow: hidden; margin-bottom: 20px;}
+.flight-list-page .filter-tabs .filter-tab{display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; padding: 10px 0; background-color: #fff; color: #2b2a58; border-right: 1px solid #cbcccd; cursor: pointer; }
 .flight-list-page .filter-tabs .filter-tab h3{font-weight: 500; text-transform: capitalize; margin-bottom: 0; font-size: 15px;}
 .flight-list-page .filter-tabs .filter-tab span{font-size: 14px}
 .flight-list-page .filter-tabs .filter-tab:last-child{border: none;}
-.flight-list-page .filter-tabs .filter-tab.active{background-color: #3c91e0; color: #fff; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);}
+.flight-list-page .filter-tabs .filter-tab.active{background-color: #0d00bc; color: #fff; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);}
 .flight-list-page .visa-transits-note{position: relative; background-color: #fff5da; padding: 10px 0; margin-bottom: 10px; border-radius: 2px; border: 1px solid #ebdaac;}
 .flight-list-page .visa-transits-note p{padding-left: 33px; margin-bottom: 0; padding-bottom: 0; font-size: 14px; color: #b69645;}
 /*flight Details*/
@@ -117,7 +117,7 @@
 .flight-detail-page .wrapper-shared .else{margin-top:4px;display:inline-block;color: #4ea1e2; font-size: 14px; text-transform: capitalize;}
 aside{position: -webkit-sticky; position: sticky;top: 0;margin-bottom: 20px}
 aside .booking-right{border-radius: 5px; margin-bottom: 20px; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); -ms-box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); -moz-box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); -o-box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); background-color: #fff;}
-aside .booking-title { padding: 16px 0; background-color: #3c91e0; color: #fff; text-transform: capitalize; font-weight: 700; border-top-right-radius: 5px; border-top-left-radius: 5px; }
+aside .booking-title { padding: 16px 0; background-color: #0d00bc; color: #fff; text-transform: capitalize; font-weight: 700; border-top-right-radius: 5px; border-top-left-radius: 5px; }
 aside .summary-card{padding:20px;}
 aside .summary-card .destination ul li{display: flex; align-items: center;}
 aside .summary-card .destination ul li:last-child h5{font-weight: 500;}
@@ -149,5 +149,19 @@ aside .help-detail .info a{font-size: 22px; font-weight: 500; color: #fff;}
 .options input:checked + label{background-color: #ff002d!important}
 .options label{padding: 3px 18px !important; color: #fff !important; font-size: 14px !important;}
 
+/* top flights */
+.airline-card .tab-panel { margin: 15px 0px; position: absolute; width: 100%; left: 0; top: 48px; z-index: 2; opacity:0;visibility:hidden;-webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out; background: #fff; }
+.airline-card  input[type=checkbox]:checked + .tab-panel {-webkit-transition: opacity .3s,padding .3s; -moz-transition: opacity .3s,padding .3s; transition: opacity .3s,padding .3s; visibility: visible; opacity: 1; box-shadow: 0 2px 10px 0 rgba(0,0,0,.07); }
 
-
+.airline-card img{width: 35px; margin: 8px;}
+.top-airlines{background-color: #f2f6fb;padding-top: 80px;padding-bottom: 80px;}
+.top-airlines .airline-card{position:relative;border: none;margin-bottom: 10px;box-shadow: 0 2px 10px 0 rgba(0,0,0,.07);background-color: #fff;}
+.top-airlines .airline-card .card-header{background-color: transparent;padding: 6px 10px;text-align: center;cursor: pointer;}
+.airline-card .airline_img{height: 53px;text-align: left;width: 130px;padding: 0 3px 3px;}
+.airline-card .airline-name{ font-size: 16px;color: #363636;font-weight: 500;}
+.airline-card-body .itenary{padding: 20px 15px;position: relative;cursor: pointer;}
+.airline-card-body .itenary:hover{background:#f2f3f8}
+.itenary:before{height: 1px;display: block;width: 90%;background: #f2f6fb;border-right: 1px #fff;content: '';position: absolute;top: 0;}
+.airline-card-body .itenary span{display: inline-block;font-size: 15px;color: #363636;font-weight: 500;text-transform: capitalize;}
+.airline-card-body .itenary img{width: 58%}
+.text-muted {color: #6c757d!important;}

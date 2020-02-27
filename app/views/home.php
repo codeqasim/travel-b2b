@@ -164,7 +164,7 @@
 </div>
 <section class="features">
   <div class="section-subtitle">
-    <h2>PHPTRAVELS Features</h2>
+    <h2>Features</h2>
   </div>
   <div class="contain">
     <div class="row flex-content-center">
@@ -174,15 +174,15 @@
       </div>
       <div class="c2 text-center feature-item">
         <img alt="" src="assets/img/hotelsCount.svg">
-        <p> Over 1 Million hotels worldwide </p>
+        <p> Over 1 Million Hotels </p>
       </div>
       <div class="c2 text-center feature-item">
         <img alt="" src="assets/img/point-of-service.svg">
-        <p>Inclusive Prices (Taxes &amp; Fees) </p>
+        <p>Best Fares Guaranty</p>
       </div>
       <div class="c2 text-center feature-item">
         <img alt="" src="assets/img/debit-card.svg">
-        <p>Safe &amp; Secure Payment Options </p>
+        <p>Secure Payments </p>
       </div>
     </div>
   </div>

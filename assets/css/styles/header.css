@@ -1,9 +1,12 @@
 /* Header */
 header nav {padding:10px 0;width:100%;background-color:rgba(34,34,34,.95);color:#fff;position:relative;height: 60px;border-bottom: 1px solid #000000;}
-header .logo img{max-width:100%;width:160px;height:35px;object-fit: cover;}
+header .logo a {display: flex; align-items: center; color: #fff; text-decoration: none;}
+header .logo a:hover{color:#eee}
+header .logo img{max-width: 40px; margin-right: 10px; border-radius: 8px;}
 header .modules{margin: 0 20px;}
 header .menu {display: flex;}
-header .menu a{font-size:14px;text-transform:capitalize;color:#fff;font-weight:600; margin: 15px 10px; line-height: 10px;}
+header .menu a{font-size:14px;text-transform:capitalize;color:#fff;font-weight:600; border-radius: 4px; margin: 2px 4px; padding: 13px 15px; letter-spacing: 1px; line-height: 10px;}
+header .menu a.active{background: #0d00bc }
 header .menu a:hover{color:#eee}
 header .menu img { height: 35px;width: 25px; fill:#787878 }
 header .menu img:hover { fill: #000;}

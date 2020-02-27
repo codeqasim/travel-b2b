@@ -1,8 +1,8 @@
 <div class="nav c10 p0 flex hide-m mobnav animated fadeInLeft hide row-rtl">
     <div class="items-center">
         <div class="menu row-rtl">
-            <a href="<?php echo base_url(); ?>hotels"> HOTELS </a>
-            <a href="<?php echo base_url(); ?>flights"> FLIGHTS </a>
+            <a href="<?php echo base_url(); ?>hotels" class="active"> HOTELS </a>
+            <a href="<?php echo base_url(); ?>flights" class=""> FLIGHTS </a>
         </div>
     </div>
     <div class="nav-right">

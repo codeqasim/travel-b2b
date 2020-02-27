@@ -60,13 +60,13 @@
             <div class="passenger-info rtl-align-right">
                 <span>1</span>
                 <span>Traveler</span>,
-                <span>first</span>
+                <span>First</span>
             </div>
         </div>
         </div>
         <div class="passenger-dropdown pb-20">
         <div class="passenger-dropdown-head rtl-align-right">
-            <span >Room 1</span>
+            <span >Options</span>
         </div>
         <div class="flex room-row flex-content-between row-rtl">
             <div class="passenger-dropdown-left">
@@ -90,6 +90,12 @@
                 <button class="increase">+</button>
             </div>
         </div>
+        <select name="" id="">
+            <option>Economy</option>
+            <option>Premium</option>
+            <option>Business</option>
+            <option>First</option>
+        </select>
         <!-- <button class="add-room mt-20" type="button">Add room +</button> -->
     </div>
         <div class="searchbutton">

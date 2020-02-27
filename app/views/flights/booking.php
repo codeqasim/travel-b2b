@@ -34,7 +34,9 @@
   <div class="contain">
     <div class="row row-rtl">
       <div class="c8">
+        <?php for ($i = 1; $i <= 1; $i++) { ?>
         <?php include 'flight.php' ?>
+        <?php } ?>
         <div class="wrapper-shared">
           <h4 class="rtl-align-right">Review & complete your booking</h4>
           <strong class=" d-block rtl-align-right">We care about you & wish you a good flight so, please have a final look at your flight details</strong>

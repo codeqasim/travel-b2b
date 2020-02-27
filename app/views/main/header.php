@@ -15,7 +15,9 @@
             <div class="c2 p0 rtl-align-right">
                 <div class="logo">
                     <a href="<?php echo base_url(); ?>">
-                    <img alt="logo" src="<?php echo base_url(); ?>assets/img/logo.png" /></a>
+                    <img alt="logo" src="<?php echo base_url(); ?>assets/img/logo.png" />
+                    B2B Booking
+                    </a>
                 </div>
                 <div class="bars show-m">
                 <input id="bars" type="checkbox" hidden>
